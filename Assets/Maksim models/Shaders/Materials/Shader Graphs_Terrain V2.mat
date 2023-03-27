@@ -82,18 +82,19 @@ Material:
     m_Floats:
     - _Alpha: 1
     - _Float: 6.88
-    - _Float_1: -0.003
+    - _Float_1: -0.004
     - _Float_2: 0
     - _Grid_modifier: 1
     - _Height_multiplier: 0.003
     - _Low_multiplier: 1
     - _Low_multiplier_1: 1
     - _Low_position: 0.5
+    - _Max_height: 0
     - _Noise_multiplier: 0.0004
     - _Nouse_scale: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: -1.4
+    - _Scale: 14
     - _Terrain_modifier: 0.05
     - _Terrain_position: 0.5
     - _frequency: 1
