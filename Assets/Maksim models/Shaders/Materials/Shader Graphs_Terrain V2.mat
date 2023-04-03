@@ -94,7 +94,7 @@ Material:
     - _Nouse_scale: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 26.86
+    - _Scale: 1
     - _Terrain_modifier: 0.05
     - _Terrain_position: 0.5
     - _frequency: 1
