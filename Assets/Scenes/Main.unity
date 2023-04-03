@@ -201,6 +201,8 @@ GameObject:
   - component: {fileID: 170930454}
   - component: {fileID: 170930459}
   - component: {fileID: 170930458}
+  - component: {fileID: 170930460}
+  - component: {fileID: 170930461}
   m_Layer: 5
   m_Name: HelpCanvas
   m_TagString: Untagged
@@ -323,6 +325,36 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!111 &170930460
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170930453}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 426c1ce12d0d78f49bed9ddc6eb2765f, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &170930461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170930453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dbe5840dbe89a469afa9deed2a123f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedImageManager: {fileID: 47152461}
+  m_DebugTextMesh: {fileID: 1060630930}
+  m_HelpCanvasAnimator: {fileID: 170930458}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,7 +617,6 @@ GameObject:
   - component: {fileID: 647451311}
   - component: {fileID: 647451310}
   - component: {fileID: 647451309}
-  - component: {fileID: 647451313}
   m_Layer: 5
   m_Name: DebugCanvas
   m_TagString: Untagged
@@ -676,21 +707,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &647451313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647451308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63dbe5840dbe89a469afa9deed2a123f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedImageManager: {fileID: 47152461}
-  m_DebugTextMesh: {fileID: 598411827}
-  m_HelpCanvasAnimator: {fileID: 0}
 --- !u!1 &744837568
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,8 +953,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 3204448255
-  m_fontColor: {r: 1, g: 1, b: 1, a: 0.74509805}
+    rgba: 2986344447
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0.69411767}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1040,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.613968, y: -97.75}
+  m_AnchoredPosition: {x: 29.614014, y: -97.75}
   m_SizeDelta: {x: 2117.3296, y: 1527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1293836497

@@ -29,6 +29,7 @@ public class HelpFadeOnDetect : MonoBehaviour
         foreach (var newImage in eventArgs.added)
         {
             m_DebugTextMesh.text = "Event: added";
+            m_HelpCanvasAnimator.SetBool("IsVisible", false);
         }
 
         foreach (var updatedImage in eventArgs.updated)
