@@ -37,13 +37,13 @@ Material:
     m_Floats:
     - Vector1_25500A0D: 0.01
     - Vector1_3A217F60: 0.05
-    - Vector1_41927BAF: 13.86
+    - Vector1_41927BAF: 12
     - Vector1_41FA05A9: 0
     - Vector1_4DDCC2F5: 0.17
     - Vector1_52E0F4DF: 0.0001
     - Vector1_584ABA1D: 1.31
     - Vector1_5C394388: 1
-    - Vector1_6F4604C9: 86.7
+    - Vector1_6F4604C9: 7.52
     - _Alpha: 1
     - _QueueControl: 0
     - _QueueOffset: 0
