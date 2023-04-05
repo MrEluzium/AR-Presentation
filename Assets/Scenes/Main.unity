@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedImageManager: {fileID: 47152461}
-  m_DebugTextMesh: {fileID: 1060630930}
+  m_DebugTextMesh: {fileID: 598411827}
   m_HelpCanvasAnimator: {fileID: 170930458}
 --- !u!1 &410087039
 GameObject:
